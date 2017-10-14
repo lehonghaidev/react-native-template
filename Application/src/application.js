@@ -23,13 +23,13 @@ const Application = DrawerNavigator({
 
 const App = StackNavigator(
 	{
-		Login: { 
-			screen: Login,
-			navigationOptions: ({ navigation }) => ({
-				header: null,
-				// title: "Login",
-			}),
-		},
+		// Login: { 
+		// 	screen: Login,
+		// 	navigationOptions: ({ navigation }) => ({
+		// 		header: null,
+		// 		// title: "Login",
+		// 	}),
+		// },
 		Application: {
 			screen: Application, 
 			navigationOptions: ({ navigation }) => ({
